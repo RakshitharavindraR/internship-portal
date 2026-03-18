@@ -1,0 +1,2 @@
+INSERT INTO user(username, password, role) VALUES('admin','admin123','ROLE_ADMIN');
+INSERT INTO internship(title, company, description) VALUES('Java Developer Intern','TechCorp','Work on Java projects');
