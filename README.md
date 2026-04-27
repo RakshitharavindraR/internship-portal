@@ -1,61 +1,61 @@
-# 🏢 Internship Job Portal
+# 🚀 Internship Portal
 
-## 🚀 Project Overview
-The **Internship Job Portal** is a web application that allows users to explore and apply for internships. Admins can manage internship listings, and users can apply easily through a secure and user-friendly platform.
+A full-stack web application that connects students with internship opportunities and allows admins to manage internship postings efficiently.
+
+---
+
+## ✨ Overview
+
+Internship Portal is a role-based platform where:
+- Students can browse and apply for internships
+- Admins can post and manage internship listings
+- Firebase handles authentication and database operations
+
+---
+
+## 🔥 Features
+
+### 👨‍🎓 Student Features
+- User registration and login (Firebase Auth)
+- View internship listings
+- View internship details
+- Apply for internships
+- Track applications
+
+### 🧑‍💼 Admin Features
+- Add new internship opportunities
+- Edit and delete postings
+- View applications
+- Manage internship data
+
+### ⚙️ System Features
+- Role-based access (Admin / Student)
+- Firebase authentication
+- Real-time database updates (Firestore)
+- Responsive design for all devices
 
 ---
 
 ## 🛠️ Tech Stack
-- **Backend:** Java, Spring Boot  
-- **Frontend:** HTML, CSS, JavaScript  
-- **Database:** MySQL  
-- **APIs:** RESTful services  
-- **Authentication:** Role-based login (Admin & User)  
+
+- React.js  
+- JavaScript  
+- HTML  
+- CSS  
+- Firebase Authentication  
+- Cloud Firestore  
 
 ---
 
-## ✨ Features
-- Secure login for Admin and Users  
-- Admin can add, edit, or delete internships  
-- Users can view and apply for internships  
-- Database integration with MySQL  
-- REST API support for all operations  
+## 📸 Screenshots
+
+(Add your screenshots here)
+
+- Home Page  
+- Login Page  
+- Internship Listings  
+- Admin Dashboard  
+- Application Page  
 
 ---
 
-
-## 📂 Project Structure
-internship-job-portal/
-│
-├── src/main/java/com/internshipportal
-│ ├── controller/ # REST API controllers
-│ ├── model/ # Entity classes
-│ ├── repository/ # Database repositories
-│ └── service/ # Business logic services
-│
-├── src/main/resources/
-│ └── application.properties # Spring Boot configuration
-│
-├── pom.xml # Maven dependencies
-└── README.md # Project documentation
-
-
----
-
-## ⚡ How to Run
-
-### Prerequisites
-- Java 11 or higher  
-- Maven  
-- MySQL  
-
-### Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/internship-job-portal.git
-   cd internship-job-portal
-2.Create a MySQL database named internship_portal and update application.properties with your credentials.
-
-3.Build the project: mvn clean install
-4.Run the application:mvn spring-boot:run
-5.Open your browser at http://localhost:8080
