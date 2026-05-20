@@ -24,7 +24,7 @@ A full-stack internship management platform that helps students browse and apply
 - Firebase Authentication
 - Firebase Firestore
 
-##Future Enhancements
+## Future Enhancements
 - Admin Dashboard
 - Resume Upload Feature
 - Email Notifications
